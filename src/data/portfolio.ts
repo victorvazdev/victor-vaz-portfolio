@@ -317,7 +317,6 @@ export const projects: Project[] = [
     category: 'web',
     stack: ['Angular', 'HTML', 'CSS'],
     links: [
-      { label: 'Site', href: 'https://www.victorvaz.com', kind: 'site' },
       { label: 'Código', href: gh('victor-vaz-website'), kind: 'code' },
     ],
   },
