@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victor Vaz — Engenheiro de Software</title>
+    <meta
+      name="description"
+      content="Portfólio de Victor Vaz, engenheiro de software full stack: APIs em Node.js e Python, front-ends em Angular, apps em Flutter e SwiftUI e ferramentas de terminal no Homebrew."
+    />
+    <meta name="author" content="Victor Vaz de Oliveira" />
+    <link rel="canonical" href="https://victorvaz.dev/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e1116" media="(prefers-color-scheme: dark)" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:url" content="https://victorvaz.dev/" />
+    <meta property="og:title" content="Victor Vaz — Engenheiro de Software" />
+    <meta
+      property="og:description"
+      content="Full stack: Node.js, Python, Angular, Flutter e SwiftUI. Líder de equipe na Ruraliza e pós-graduando em Engenharia de Software na PUC-Rio."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@victorvazdev" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Aplica o tema antes do primeiro paint (mesma lógica de src/hooks/useTheme.ts).
+      ;(function () {
+        var theme
+        try {
+          theme = localStorage.getItem('theme')
+        } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        }
+        document.documentElement.dataset.theme = theme
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 24px; font-family: sans-serif">
+        Victor Vaz — Engenheiro de Software. Ative o JavaScript para ver o portfólio, ou fale comigo em
+        <a href="mailto:victor@victorvaz.dev">victor@victorvaz.dev</a>.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
