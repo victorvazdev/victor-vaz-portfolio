@@ -466,6 +466,9 @@ export const certificateGroups: { title: string; items: Certificate[] }[] = [
   {
     title: 'Engenharia & Gestão',
     items: [
+      { name: 'Gestão Ágil de Projetos e Produtos', issuer: 'PUC-Rio (CCEC)', url: drive('12G3ASeAzNNnMoryA-M88NwCk3LTBwI9s') },
+      { name: 'Docker: Criando e Gerenciando Containers', issuer: 'Alura', url: drive('1UIFnri63skr5_u7hrFjdvWDd3Sym3ELr') },
+      { name: 'SAP: Entendendo Suas Características Gerais', issuer: 'Alura', url: drive('1KlPu30gETSTlyBrA6pbrNP2fI-cquE4D') },
       { name: 'Arquiteturas Empresariais', issuer: 'Ânima Educação', url: drive('1ciYMo_GRlBKbwjAy_q4XIZdOOpRELVxL') },
       { name: 'Gestão e Qualidade de Software', issuer: 'Ânima Educação', url: drive('1zwg374hWkoBfkmRCNULwTtSacAuP6JxX') },
       { name: 'Governança e Serviços de TI', issuer: 'Ânima Educação', url: drive('1l6sUfHR82jGiB26iNoPIQgvBVUP3wpq8') },
