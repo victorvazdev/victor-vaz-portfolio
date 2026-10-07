@@ -376,6 +376,14 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    role: 'Voluntário na Comunidade de Suporte Apple',
+    org: 'Apple',
+    period: 'mar 2024 — jun 2024',
+    points: [
+      'Atuei voluntariamente no suporte à comunidade oficial de usuários da Apple, auxiliando no diagnóstico e na resolução de problemas técnicos em sistemas operacionais e dispositivos (iOS, macOS, iPadOS, WatchOS, tvOS).',
+    ],
+  },
+  {
     role: 'Líder da Equipe de Comunicação',
     org: 'Lagoinha Buritis',
     period: 'mar 2023 — out 2023',
