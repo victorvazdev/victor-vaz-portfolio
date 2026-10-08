@@ -317,6 +317,7 @@ export const projects: Project[] = [
     category: 'web',
     stack: ['Angular', 'HTML', 'CSS'],
     links: [
+      { label: 'Site', href: 'https://www.victorvaz.com', kind: 'site' },
       { label: 'Código', href: gh('victor-vaz-website'), kind: 'code' },
     ],
   },
@@ -332,7 +333,10 @@ export const projects: Project[] = [
     description: 'A versão anterior deste portfólio, com dados servidos por Cloud Functions a partir de um Gist.',
     category: 'flutter',
     stack: ['Flutter Web', 'Dart', 'Firebase'],
-    links: [{ label: 'Código', href: gh('victor_vaz_portfolio'), kind: 'code' }],
+    links: [
+      { label: 'Site', href: 'https://victorvazdev.github.io/victor_vaz_portfolio/', kind: 'site' },
+      { label: 'Código', href: gh('victor_vaz_portfolio'), kind: 'code' }
+    ],
   },
   {
     name: 'Banco d’Ouro (CLI)',
